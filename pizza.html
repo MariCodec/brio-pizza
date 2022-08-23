@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./form/form.css" />
+    <link rel="stylesheet" href="./css/pizza.css" />
+     <link rel="stylesheet" href="./css/adaptacion.css">
+  </head>
+  <body>
+     <header class="header">
+      
+       <div class="container">
+      <div class="header__top">
+        <div class="logo">
+          <a href="index.html">
+            <img class="logo__img" src="img/logotipe.png" alt="" />
+          </a>
+        </div>
+        <nav class="header__nav">
+          <a class="header__nav-link" href="pizza.html">Pizza</a>
+          <a class="header__nav-link" href="fastFOOD.html">Fast food</a>
+          <a class="header__nav-link" href="grill.html">Grill</a>
+          <a class="header__nav-link" href="salad.html">Salad</a>
+          <a class="header__nav-link" href="lanch.html">lunch-time</a>
+        </nav>
+    
+        <div class="header__info">
+          <div class="header__tel"> 097-00-00-00 </div>
+          <div class="header__work-time">
+            Пн-Нд 11:00 - 22:00
+          </div>
+        </div>
+     
+      </div>
+              <div class="burgerMenu">
+      <div class="burger-content">
+        <div class="burger-title">МЕНЮ</div>
+        <input type="checkbox" id="check__menu" />
+        <label for="check__menu"> </label>
+
+        <div class="burger__line first"></div>
+        <div class="burger__line second"></div>
+        <div class="burger__line third"></div>
+        <div class="burger__line fourth"></div>
+        <nav class="main__menu">
+          <a class="burger__menu__list" href="pizza.html">Pizza</a>
+          <a class="burger__menu__list" href="fastFOOD.html">Fast food</a>
+          <a class="burger__menu__list" href="grill.html">Grill</a>
+          <a class="burger__menu__list" href="salad.html">Salad</a>
+          <a class="burger__menu__list" href="lanch.html">lunch-time</a>
+        </nav>
+      </div>
+    </div>
+    </div>
+      </div>
+     
+    </header> 
+
+    <section class="oder hidden">
+      <div class="container-oder">
+        <div class="oder__description">
+          <div class="close">
+            <img class="oder__close" src="./form/times-circle.svg" alt="" />
+          </div>
+          <div class="oder__description-title">Вітаємо у BRIO!</div>
+          <div class="oder__description-subtitle">
+            Для оформлення замовлення телефонуйте за номером
+            <div class="number">097 00 00 000</div>
+            або залишіть Ваші контакти, і ми Вам зателефонуємо.
+          </div>
+        </div>
+        <div class="oder__form">
+          <form class="form" action="#">
+            <p>
+              <input
+                class="feedback-input"
+                type="text"
+                name="name"
+                placeholder="ім'я"
+              />
+            </p>
+            <p>
+              <input
+                class="feedback-input"
+                type="tel"
+                name="
+          tel"
+                placeholder="Телефон"
+              />
+            </p>
+            <p>
+              <input
+                class="feedback-input"
+                type="email"
+                name="email"
+                placeholder="email"
+              />
+            </p>
+            <input class="button-submit" type="submit" value="Відправити" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="container">
+        <div class="menu__list">
+          <!-- 1 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">маргарита</div>
+
+            <div class="food-descriptions">Соус, моцарелла, орегано</div>
+
+            <div class="food-price">
+              33 см / 85 грн <br />
+              <br />
+              45 см / 160 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">фунджі</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 97 грн <br />
+              <br />
+              45 см / 188 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">вегетеріанська</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, кукурудза, перець болгарський, цибуля,
+              орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 111 грн <br />
+              <br />
+              45 см / 205 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">вегано</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, зелений кабачок, груша, перець болгарський,
+              горіх, дор блю, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 124 грн <br />
+              <br />
+              45 см / 235 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">везувіо</div>
+            <div class="food-descriptions">Соус, моцарелла, шинка, орегано</div>
+
+            <div class="food-price">
+              33 см / 120 грн <br />
+              <br />
+              45 см / 232 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">чотири сири</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, пармезан, сир королівський, дор блю, виноград,
+              орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 135 грн <br />
+              <br />
+              45 см / 235 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">селянська</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, шинка, бочок, цибуля, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 137 грн <br />
+              <br />
+              45 см / 248 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 8 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">салямі</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, салямі, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 120 грн <br />
+              <br />
+              45 см / 220 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 9 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">мисливська</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, мисливські ковбаски, часник, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 115 грн <br />
+              <br />
+              45 см / 225 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 10 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">капрічоза</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, шинка, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 130 грн <br />
+              <br />
+              45 см / 240 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 11 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">фантазія</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, 4 довільні складники, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 155 грн <br />
+              <br />
+              45 см / 280 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 12 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">американа</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, курка, кукурудза, перець болгарський,
+              орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 147 грн <br />
+              <br />
+              45 см / 269 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 13 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">палома</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, шинка, перець болгарський, цибуля,
+              орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 140 грн <br />
+              <br />
+              45 см / 255 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 14 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">гавайська</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, курка, ананас, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 140 грн <br />
+              <br />
+              45 см / 255 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 15 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">козацька</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, бочок, ковбаса домашня, огірок
+              маринований, перець болгарський, цибуля, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 150 грн <br />
+              <br />
+              45 см / 275 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 16 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">мексиканська</div>
+
+            <div class="food-descriptions">
+              Соус, моцарелла, салямі, кукурудза,квасоля, халапенйо, цибуля,
+              орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 144 грн <br />
+              <br />
+              45 см / 260 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 17 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">пепероні</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, пепероні, халапенйо, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 160 грн <br />
+              <br />
+              45 см / 270 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 18 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">фіт</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, прошуто, чері, рукола, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 160 грн <br />
+              <br />
+              45 см / 270 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 19 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">грецька</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, курка, фета, оливки, чері, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 150 грн <br />
+              <br />
+              45 см / 277 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 20 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">карбонара</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, бекон, цибуля, вершково-яєчний сосус, часник,
+              орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 155 грн <br />
+              <br />
+              45 см / 280 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 21 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">тонно</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, тунець, оливки, помідор, цибуля, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 152 грн <br />
+              <br />
+              45 см / 280 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+          <!-- 22 -->
+          <div class="food">
+            <div class="foto">
+              <img class="food-image" src="./img/pizza/3397_img.jpeg" alt="" />
+            </div>
+            <div class="food-name">фірмова</div>
+            <div class="food-descriptions">
+              Соус, моцарелла, печериці, шматочки стейка, цибуля, чері,
+              зелень,соус фірмовий, орегано
+            </div>
+
+            <div class="food-price">
+              33 см / 160 грн <br />
+              <br />
+              45 см / 295 грн
+            </div>
+
+            <div class="button">
+              <div class="button-link">замовити</div>
+            </div>
+          </div>
+
+          <div class="adds">
+            <div class="adds__title">ДОДАТКИ</div>
+            <div class="adds__list">
+              <div class="adds__content">
+                <div class="adds__img">
+                  <img
+                    class="adds__image"
+                    src="./img/pizza/add/cheese.png"
+                    alt=""
+                  />
+                </div>
+                <div class="adds__text">Додатковий сир</div>
+                <div class="adds__price">
+                  піца 33 см / 25 грн <br />
+                  <br />
+                  піца 45 см / 35 грн
+                </div>
+                <div class="adds__button">
+                  <a class="adds__button-link" href="">додати</a>
+                </div>
+              </div>
+              <div class="adds__content">
+                <div class="adds__img">
+                  <img
+                    class="adds__image"
+                    src="./img/pizza/add/meat.png"
+                    alt=""
+                  />
+                </div>
+                <div class="adds__text">Додаткове м'ясо</div>
+                <div class="adds__price">
+                  50 гр / 25 грн <br />
+                  <br />
+                  70 гр / 35 грн
+                </div>
+                <div class="adds__button">
+                  <a class="adds__button-link" href="#">додати</a>
+                </div>
+              </div>
+              <div class="adds__content">
+                <div class="adds__img">
+                  <img
+                    class="adds__image"
+                    src="./img/pizza/add/vegetables.png"
+                    alt=""
+                  />
+                </div>
+                <div class="adds__text">Додаткові овочі</div>
+                <div class="adds__price">
+                  33 см / 25 грн <br />
+                  <br />
+                  45 см / 35 грн
+                </div>
+                <div class="adds__button">
+                  <a class="adds__button-link" href="#">додати</a>
+                </div>
+              </div>
+              <div class="adds__content">
+                <div class="adds__img">
+                  <img
+                    class="adds__image"
+                    src="./img/pizza/add/lemon.png"
+                    alt=""
+                  />
+                </div>
+                <div class="adds__text">Додатковий сир</div>
+                <div class="adds__price">
+                  33 см / 25 грн <br />
+                  <br />
+                  45 см / 35 грн
+                </div>
+                <div class="adds__button">
+                  <a class="adds__button-link" href="#">додати</a>
+                </div>
+              </div>
+              <div class="adds__content">
+                <div class="adds__img">
+                  <img
+                    class="adds__image"
+                    src="./img/pizza/add/mint (1).png"
+                    alt=""
+                  />
+                </div>
+                <div class="adds__text">Додаткове м'ясо</div>
+                <div class="adds__price">
+                  33 см / 25 грн <br />
+                  <br />
+                  45 см / 35 грн
+                </div>
+                <div class="adds__button">
+                  <a class="adds__button-link" href="#">додати</a>
+                </div>
+              </div>
+              <div class="adds__content">
+                <div class="adds__img">
+                  <img
+                    class="adds__image"
+                    src="./img/pizza/add/vegetables.png"
+                    alt=""
+                  />
+                </div>
+                <div class="adds__text">Додаткові овочі</div>
+                <div class="adds__price">
+                  33 см / 25 грн <br />
+                  <br />
+                  45 см / 35 грн
+                </div>
+                <div class="adds__button">
+                  <a class="adds__button-link" href="#">додати</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <!-- <div class="footer__logo"></div> -->
+        <div class="footer__content">
+          <div class="footer__link">
+            <div class="footer__title">Follow us on Instagram</div>
+
+            <a
+              class="link-instagram"
+              href="./img/instalink/6242659.webp" target="_blank"
+            >
+              <img class="img-1" src="./instalink/6242659.webp" alt="" />
+            </a>
+            <a
+              class="link-instagram"
+              href="https://www.instagram.com/pizzabrio/" target="_blank"
+            >
+              <img class="img-1" src="./instalink/insta.jpeg" alt="" />
+            </a>
+            <a
+              class="link-instagram"
+              href="./img/instalink/6242659.webp" target="_blank"
+            >
+              <img
+                class="img-1"
+                src="./img/instalink/insta.jpeg"
+                alt=""
+              />
+            </a>
+            
+          </div>
+          <div class="footer__contact">
+            
+            <div class="num">097-00-00-00</div>
+            <div class="adress">
+              Жвирка <br />
+              вул. Львівська 1
+            </div>
+          </div>
+          <div class="footer__location">
+            <iframe
+              class="footer__map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76100.34824609834!2d24.26984819790233!3d50.43063407497005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724dffc2a7113df%3A0x37666ab2ee294980!2sPizza%22BRIO%22!5e0!3m2!1suk!2sua!4v1656487878755!5m2!1suk!2sua"
+             
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/button.js"></script>
+  </body>
+</html>

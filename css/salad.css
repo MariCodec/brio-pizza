@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&family=Lobster&family=Pacifico&family=Rubik+Moonrocks&family=Smooch&family=The+Nautigal&family=Yellowtail&display=swap");
+@import url(nullstyle.css);
+.header {
+}
+.container {
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+.header__top {
+  font-family: "Comfortaa", cursive;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__img {
+  transform: rotate(-20deg);
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+.logo__img:hover {
+  border: 10px #a20606 double;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav-link {
+  color: #a20606;
+  font-size: 25px;
+  padding: 20px;
+}
+.header__nav-link:hover {
+  border-bottom: 2px #a20606 double;
+}
+.header__info {
+  text-align: center;
+  padding-top: 15px;
+  line-height: 30px;
+  font-size: 25px;
+  color: #a20606;
+}
+
+.header__info:hover {
+  border-bottom: 2px #a20606 double;
+}
+
+body {
+  position: relative;
+}
+
+.oder {
+  /* position: absolute; */
+  position: fixed;
+  width: 100%;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.menu__list {
+  font-family: "Comfortaa", cursive;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 600px;
+  margin: 30px 10px;
+  text-align: center;
+}
+
+.food-image {
+  width: 300px;
+  height: 300px;
+  border: 1px #a20606 solid;
+}
+.food-name {
+  margin: 10px;
+  text-shadow: 2px 1px #a20606;
+  font-size: 25px;
+}
+.food-descriptions {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.food-price {
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 50px;
+  background-color: #a20606;
+  border-radius: 20px;
+}
+.button-link {
+  letter-spacing: 3px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+/* 
+
+
+
+
+
+
+
+*/
+
+.footer {
+  border-top: 5px #a20606 double;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.footer__title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: #a20606;
+  font-family: "Yellowtail", cursive;
+}
+
+.img-1 {
+  border: 3px #a20606 double;
+  width: 140px;
+  height: 150px;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  color: #a20606;
+  text-align: center;
+}
+
+.num {
+  padding: 10px;
+}
+
+.footer__location {
+  border: 2px #a20606 double;
+}
+.footer__map {
+  width: 400px;
+  height: 200px;
+}
